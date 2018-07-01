@@ -26,7 +26,6 @@ public class FeatureTest {
                                                         new Compass(HorizonPoint.NORTH),
                                                         new GridMapper(grid),
                                                         null);
-        vehicleControlPanel.setCurrentCoordinates(new Coordinates(0,0));
         Vehicle vehicle = new Vehicle(vehicleControlPanel, journey);
         Coordinates coordinates = vehicle.startJourney();
         System.out.println(coordinates);

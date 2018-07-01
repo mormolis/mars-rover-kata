@@ -1,38 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab277f9f-ea04-4c97-8bc7-7c08fa003cc4" name="Default" comment="Correct compass bug">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_all_1_9_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/marsRover/Terrain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/marsRover/Vehicle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/marsRover/VehicleControlPanel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/marsRover/components/Compass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/marsRover/components/Coordinates.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/marsRover/components/GridMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/marsRover/components/HorizonPoint.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/DirectionHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/marsRover/exceptions/ObstacleException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/FeatureTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/marsRover/VehicleControlPanelTest.java" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mars-rover-kata_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/mars-rover-kata_test.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/CompassTest.class" afterPath="$PROJECT_DIR$/out/test/classes/CompassTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/GridMapperTest.class" afterPath="$PROJECT_DIR$/out/test/classes/GridMapperTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/Compass.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/Coordinates.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/GridMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/HorizonPoint.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/navigators/EastHeading.java" afterPath="$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/EastDirectionHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/navigators/Navigatable.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/navigators/NorthHeading.java" afterPath="$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/SouthDirectionHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/navigators/SouthHeading.java" afterPath="$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/NorthDirectionHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/navigators/WestHeading.java" afterPath="$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/WestDirectionHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CompassTest.java" afterPath="$PROJECT_DIR$/src/test/java/CompassTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GridMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/GridMapperTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/marsRover/navigators/EastHeadingTest.java" afterPath="$PROJECT_DIR$/src/test/java/marsRover/components/directionHandlers/EastHeadingTest.java" />
+    <list default="true" id="ab277f9f-ea04-4c97-8bc7-7c08fa003cc4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/marsRover/VehicleControlPanel.java" afterPath="$PROJECT_DIR$/src/main/java/marsRover/VehicleControlPanel.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureTest.java" afterPath="$PROJECT_DIR$/src/test/java/FeatureTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -85,29 +56,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VehicleControlPanel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VehicleControlPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/VehicleControlPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#1527#1528#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1627#1628#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#1608#1609#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Terrain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Terrain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/Terrain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,7 +97,7 @@
       <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="241">
               <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,11 +109,26 @@
       <file leaf-file-name="NorthDirectionHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/NorthDirectionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-135">
               <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding>
                 <element signature="e#514#515#0" expanded="true" />
                 <element signature="e#600#601#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Compass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/Compass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-133">
+              <caret line="6" column="131" lean-forward="false" selection-start-line="6" selection-start-column="131" selection-end-line="6" selection-end-column="131" />
+              <folding>
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,21 +170,11 @@
       <file leaf-file-name="FeatureTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FeatureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HorizonPoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/HorizonPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -584,7 +560,6 @@
         <option value="$PROJECT_DIR$/src/main/java/marsRover/exceptions/ObstacleException.java" />
         <option value="$PROJECT_DIR$/src/test/java/marsRover/VehicleControlPanelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/marsRover/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FeatureTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/marsRover/components/Coordinates.java" />
         <option value="$PROJECT_DIR$/src/main/java/marsRover/components/GridMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/GridMapperTest.java" />
@@ -595,8 +570,9 @@
         <option value="$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/EastDirectionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/SouthDirectionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/WestDirectionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/marsRover/VehicleControlPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/marsRover/Terrain.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FeatureTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/marsRover/VehicleControlPanel.java" />
       </list>
     </option>
   </component>
@@ -689,23 +665,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mars-rover-kata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mars-rover-kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marsRover" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mars-rover-kata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mars-rover-kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marsRover" type="462c0819:PsiDirectoryNode" />
-              <item name="directionHandlers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -974,7 +933,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530447908313</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correct compass bug">
+      <created>1530469496698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530469496698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1020,6 +986,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="-14" width="1327" height="783" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1040,8 +1007,8 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31595093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31595093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2650039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1114,13 +1081,13 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/marsRover/VehicleControlPanel.java</url>
-          <line>50</line>
+          <url>file://$PROJECT_DIR$/src/test/java/FeatureTest.java</url>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1160,12 +1127,12 @@
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1231,13 +1198,13 @@
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#885#886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1378,13 +1345,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#885#886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1459,19 +1426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/Compass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="131" lean-forward="false" selection-start-line="6" selection-start-column="131" selection-end-line="6" selection-end-column="131" />
-          <folding>
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CompassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -1488,38 +1442,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FeatureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/Coordinates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#885#886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1543,22 +1477,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/NorthDirectionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/Terrain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="56" />
           <folding>
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/SouthDirectionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FeatureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="182">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1570,27 +1513,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/VehicleControlPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/SouthDirectionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/directionHandlers/NorthDirectionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/Terrain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/components/Compass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="-133">
+          <caret line="6" column="131" lean-forward="false" selection-start-line="6" selection-start-column="131" selection-end-line="6" selection-end-column="131" />
+          <folding>
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/marsRover/VehicleControlPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

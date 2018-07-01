@@ -7,7 +7,8 @@ import marsRover.components.HorizonPoint;
 import marsRover.components.directionHandlers.DirectionHandler;
 import marsRover.exceptions.ObstacleException;
 
-import java.util.Stack;
+import java.util.ArrayList;
+import java.util.List;
 
 public class VehicleControlPanel {
 
@@ -17,7 +18,7 @@ public class VehicleControlPanel {
     private Coordinates currentCoordinates;
     private HorizonPoint currentFacing;
 
-    private Stack<Coordinates> journeyTrack;
+    private List<String> journeyTrack;
 
     public VehicleControlPanel(Compass compass, GridMapper gridMapper, DirectionHandler directionHandler) {
         this.compass = compass;
@@ -26,7 +27,7 @@ public class VehicleControlPanel {
         updateAllDirectionHandlers();
         this.gridMapper = gridMapper;
         this.directionHandler = compass.getCurrentDirection().getDirectionHandler();
-        journeyTrack = new Stack<>();
+        journeyTrack = new ArrayList<>();
     }
 
     public void setCurrentCoordinates(Coordinates currentCoordinates) {
@@ -62,11 +63,10 @@ public class VehicleControlPanel {
 
         if (!isObstacleAhead()){
             currentCoordinates = directionHandler.getCurrentHandlersCoordinates();
-            journeyTrack.push(new Coordinates(currentCoordinates.getX(), currentCoordinates.getY()));
+            journeyTrack.add(currentCoordinates.toString());
             updateAllDirectionHandlers();
         } else {
             System.out.println(journeyTrack);
-            currentCoordinates = journeyTrack.pop();
             throw new ObstacleException();
         }
     }
@@ -75,7 +75,7 @@ public class VehicleControlPanel {
     private void updateAllDirectionHandlers(){
         HorizonPoint [] allHorizonPoints = HorizonPoint.values();
         for (HorizonPoint hp : allHorizonPoints){
-            hp.getDirectionHandler().updateCoordinates(currentCoordinates);
+            hp.getDirectionHandler().updateCoordinates(new Coordinates(currentCoordinates.getX(), currentCoordinates.getY()));
         }
     }
 
