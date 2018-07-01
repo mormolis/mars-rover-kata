@@ -1,5 +1,6 @@
-import marsRover.Coordinates;
-import marsRover.GridMapper;
+import marsRover.Terrain;
+import marsRover.components.Coordinates;
+import marsRover.components.GridMapper;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +14,8 @@ public class GridMapperTest {
 
     @Before
     public void setup(){
-        gridMapper = new GridMapper(7,9);
+        Terrain grid[] [] = new Terrain[7][9];
+        gridMapper = new GridMapper(grid);
         coordinates = new Coordinates();
     }
 
@@ -146,8 +148,15 @@ public class GridMapperTest {
         assertThat(realCoordinates, equalTo(expectedGridIndexes));
     }
 
+    @Test
+    public void differentGrid(){
+        Terrain grid[] [] = new Terrain[5][5];
+        gridMapper = new GridMapper(grid);
+        coordinates = new Coordinates(-1,1);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        int [] expectedGridIndexes = {1,1};
 
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
-
+    }
 }
-

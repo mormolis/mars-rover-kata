@@ -1,18 +1,20 @@
-package marsRover;
+package marsRover.components;
+
+import marsRover.Terrain;
 
 public class GridMapper {
     private final int COLUMN_INDEX = 0;
     private final int ROW_INDEX = 1;
-    private int[][] grid;
+    private Terrain[][] grid;
     private int maxCol;
     private int maxRow;
     private int x0;
     private int y0;
 
-    public GridMapper( int maxRow, int maxCol) {
-        this.maxCol = maxCol;
-        this.maxRow = maxRow;
-        this.grid = new int [this.maxRow][this.maxCol];
+    public GridMapper( Terrain[][] grid) {
+        this.maxCol = grid[0].length;
+        this.maxRow = grid.length;
+        this.grid = grid;
         this.x0 = this.maxRow / 2;
         this.y0 = this.maxCol / 2;
     }
@@ -31,6 +33,12 @@ public class GridMapper {
         if (Math.abs(y)>x0) gridIndexes[COLUMN_INDEX] = (maxRow + gridIndexes[COLUMN_INDEX]) % maxRow;
 
         return gridIndexes;
+    }
+
+    public boolean isObstacle(Coordinates coordinates){
+        int[] gridIndexes = mapCoordinates(coordinates);
+        System.out.println("grid indexes = " + gridIndexes[0] +", " + gridIndexes[1]);
+        return grid[gridIndexes[0]][gridIndexes[1]].equals(Terrain.OBSTACLE);
     }
 
 

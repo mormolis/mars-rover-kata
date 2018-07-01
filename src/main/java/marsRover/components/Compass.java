@@ -1,10 +1,10 @@
-package marsRover;
+package marsRover.components;
 
 public class Compass {
 
     private HorizonPoint currentDirection;
     private int pointerToCurrentDirection;
-    private final HorizonPoint [] COMPASS_MECHANISM = {HorizonPoint.NORTH, HorizonPoint.WEST, HorizonPoint.SOUTH, HorizonPoint.EAST};
+    private final HorizonPoint [] COMPASS_MECHANISM = {HorizonPoint.NORTH, HorizonPoint.EAST, HorizonPoint.SOUTH, HorizonPoint.WEST};
 
     public Compass(HorizonPoint initialDirection){
         this.currentDirection = initialDirection;

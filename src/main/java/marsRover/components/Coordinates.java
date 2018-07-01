@@ -1,4 +1,4 @@
-package marsRover;
+package marsRover.components;
 
 import java.util.Objects;
 
@@ -42,5 +42,10 @@ public class Coordinates {
 
     public void setY(int y) {
         this.y = y;
+    }
+
+    @Override
+    public String toString(){
+        return "("+ x + ", "+ y +")";
     }
 }
