@@ -1,3 +1,5 @@
+import marsRover.Coordinates;
+import marsRover.GridMapper;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,113 +9,141 @@ import static org.junit.Assert.*;
 public class GridMapperTest {
 
     private GridMapper gridMapper;
+    private Coordinates coordinates;
 
     @Before
     public void setup(){
         gridMapper = new GridMapper(7,9);
+        coordinates = new Coordinates();
     }
 
     @Test
     public void mapCoordinatesreturnsThe0_0onTheGrid(){
-        int [] expectedCoordinates = {3,4};
-        int [] realCoordinates = gridMapper.mapCoordinates(0,0);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {3,4};
+        coordinates.setX(0);
+        coordinates.setY(0);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesreturnsThe1_1onTheGrid(){
-        int [] expectedCoordinates = {2,5};
-        int [] realCoordinates = gridMapper.mapCoordinates(1,1);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {2,5};
+        coordinates.setX(1);
+        coordinates.setY(1);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesReturnsThe2_1onTheGrid(){
-        int [] expectedCoordinates = {2,6};
-        int [] realCoordinates = gridMapper.mapCoordinates(2,1);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {2,6};
+        coordinates.setX(2);
+        coordinates.setY(1);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesReturnsThe0_1onTheGrid(){
-        int [] expectedCoordinates = {2,4};
-        int [] realCoordinates = gridMapper.mapCoordinates(0,1);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {2,4};
+        coordinates.setX(0);
+        coordinates.setY(1);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesReturnsThe1_0onTheGrid(){
-        int [] expectedCoordinates = {3,5};
-        int [] realCoordinates = gridMapper.mapCoordinates(1,0);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {3,5};
+        coordinates.setX(1);
+        coordinates.setY(0);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
     }
 
     @Test
     public void mapCoordinatesReturnsTheM2_0onTheGrid(){
-        int [] expectedCoordinates = {3,2};
-        int [] realCoordinates = gridMapper.mapCoordinates(-2,0);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {3,2};
+        coordinates.setX(-2);
+        coordinates.setY(0);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesReturnsThe0_M3onTheGrid(){
-        int [] expectedCoordinates = {6,4};
-        int [] realCoordinates = gridMapper.mapCoordinates(0,-3);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {6,4};
+        coordinates.setX(0);
+        coordinates.setY(-3);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesReturnsThe0_3onTheGrid(){
-        int [] expectedCoordinates = {0,4};
-        int [] realCoordinates = gridMapper.mapCoordinates(0,3);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {0,4};
+        coordinates.setX(0);
+        coordinates.setY(3);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesReturnsThe5_3onTheGrid(){
-        int [] expectedCoordinates = {0,0};
-        int [] realCoordinates = gridMapper.mapCoordinates(5,3);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {0,0};
+        coordinates.setX(5);
+        coordinates.setY(3);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesReturnsThe5_2onTheGrid(){
-        int [] expectedCoordinates = {1,0};
-        int [] realCoordinates = gridMapper.mapCoordinates(5,2);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {1,0};
+        coordinates.setX(5);
+        coordinates.setY(2);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesReturnsThe5_4onTheGrid(){
-        int [] expectedCoordinates = {6,0};
-        int [] realCoordinates = gridMapper.mapCoordinates(5,4);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {6,0};
+        coordinates.setX(5);
+        coordinates.setY(4);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
 
     @Test
     public void mapCoordinatesReturnsThe10_10onTheGrid(){
-        int [] expectedCoordinates = {0,5};
-        int [] realCoordinates = gridMapper.mapCoordinates(10,10);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {0,5};
+        coordinates.setX(10);
+        coordinates.setY(10);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
 
     }
 
     @Test
     public void mapCoordinatesReturnsTheM5_M4onTheGrid(){
-        int [] expectedCoordinates = {0,8};
-        int [] realCoordinates = gridMapper.mapCoordinates(-5,-4);
-        assertThat(realCoordinates, equalTo(expectedCoordinates));
+        int [] expectedGridIndexes = {0,8};
+        coordinates.setX(-5);
+        coordinates.setY(-4);
+        int [] realCoordinates = gridMapper.mapCoordinates(coordinates);
+        assertThat(realCoordinates, equalTo(expectedGridIndexes));
     }
 
 

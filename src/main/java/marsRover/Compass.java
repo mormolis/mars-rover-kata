@@ -1,3 +1,5 @@
+package marsRover;
+
 public class Compass {
 
     private HorizonPoint currentDirection;
@@ -14,10 +16,20 @@ public class Compass {
         setIndexOfCurrentDirection();
     }
 
-    public HorizonPoint turnLeft(){
-        pointerToCurrentDirection =  Math.abs(Math.abs(pointerToCurrentDirection - 1) % COMPASS_MECHANISM.length - COMPASS_MECHANISM.length);
-        return COMPASS_MECHANISM[pointerToCurrentDirection];
+    public void turnLeft(){
+        pointerToCurrentDirection--;
+        if (pointerToCurrentDirection < 0) pointerToCurrentDirection = 3;
+        currentDirection = COMPASS_MECHANISM[pointerToCurrentDirection];
+    }
 
+    public void turnRight(){
+        pointerToCurrentDirection++;
+        if (pointerToCurrentDirection > 3) pointerToCurrentDirection = 0;
+        currentDirection = COMPASS_MECHANISM[pointerToCurrentDirection];
+    }
+
+    public HorizonPoint getCurrentDirection() {
+        return currentDirection;
     }
 
     private void setIndexOfCurrentDirection(){

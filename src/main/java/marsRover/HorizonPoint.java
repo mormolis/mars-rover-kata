@@ -1,4 +1,6 @@
-enum HorizonPoint {
+package marsRover;
+
+public enum HorizonPoint {
     NORTH('N', 0), EAST('E', 3), SOUTH('S', 2), WEST('W', 1);
 
     private char abrv;

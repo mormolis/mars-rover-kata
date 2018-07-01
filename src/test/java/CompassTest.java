@@ -1,3 +1,5 @@
+import marsRover.Compass;
+import marsRover.HorizonPoint;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,23 +17,59 @@ public class CompassTest {
     @Test
     public void compassShowsEastWhenTurnsLeftFromNorth(){
         compass.setCurrentDirection(HorizonPoint.NORTH);
-        assertThat(compass.turnLeft(), equalTo(HorizonPoint.EAST));
+        compass.turnLeft();
+        assertThat(compass.getCurrentDirection(), equalTo(HorizonPoint.EAST));
     }
 
     @Test
     public void compassShowsSouthWhenTurnsLeftFromEast(){
         compass.setCurrentDirection(HorizonPoint.EAST);
-        assertThat(compass.turnLeft(), equalTo(HorizonPoint.SOUTH));
+        compass.turnLeft();
+        assertThat(compass.getCurrentDirection(), equalTo(HorizonPoint.SOUTH));
     }
 
+    @Test
+    public void compassShowsWestWhenTurnsLeftFromSouth(){
+        compass.setCurrentDirection(HorizonPoint.SOUTH);
+        compass.turnLeft();
+        assertThat(compass.getCurrentDirection(), equalTo(HorizonPoint.WEST));
+    }
 
+    @Test
+    public void setCompassShowsNorthWhenTurnsLeftFromWest(){
+        compass.setCurrentDirection(HorizonPoint.WEST);
+        compass.turnLeft();
+        assertThat(compass.getCurrentDirection(), equalTo(HorizonPoint.NORTH));
+    }
 
     @Test
     public void compassShowsWestWhenTurnsRightFromNorth(){
+        compass.setCurrentDirection(HorizonPoint.NORTH);
+        compass.turnRight();
+        assertThat(compass.getCurrentDirection(), equalTo(HorizonPoint.WEST));
     }
 
+    @Test
+    public void compassShowsSouthWhenTurnsRightFromWest(){
+        compass.setCurrentDirection(HorizonPoint.WEST);
+        compass.turnRight();
+        assertThat(compass.getCurrentDirection(), equalTo(HorizonPoint.SOUTH));
+    }
 
+    @Test
+    public void compassShowsEastWhenTurnsRightFromSouth(){
+        compass.setCurrentDirection(HorizonPoint.SOUTH);
+        compass.turnRight();
+        assertThat(compass.getCurrentDirection(), equalTo(HorizonPoint.EAST));
+    }
+
+    @Test
+    public void compassShowsNorthWhenTurnsRightFromEast(){
+        compass.setCurrentDirection(HorizonPoint.SOUTH);
+        compass.turnRight();
+        assertThat(compass.getCurrentDirection(), equalTo(HorizonPoint.EAST));
+    }
 }
 
-//Compass compass = new Commpass (NORTH)
-//HorizonPoint facing = compass.turnLeft()
+//marsRover.Compass compass = new Commpass (NORTH)
+//marsRover.HorizonPoint facing = compass.turnLeft()
