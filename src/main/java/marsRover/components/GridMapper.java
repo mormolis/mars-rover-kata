@@ -27,7 +27,7 @@ public class GridMapper {
         int [] gridIndexes = {x0, y0};
 
         if (y!=0) gridIndexes[COLUMN_INDEX] = gridIndexes[COLUMN_INDEX] - y;
-        if (x!=0) gridIndexes[1] = gridIndexes[ROW_INDEX] + x;
+        if (x!=0) gridIndexes[ROW_INDEX] = gridIndexes[ROW_INDEX] + x;
 
         if (Math.abs(x)>y0) gridIndexes[ROW_INDEX] = (maxCol + gridIndexes[ROW_INDEX]) % maxCol;
         if (Math.abs(y)>x0) gridIndexes[COLUMN_INDEX] = (maxRow + gridIndexes[COLUMN_INDEX]) % maxRow;
@@ -37,8 +37,8 @@ public class GridMapper {
 
     public boolean isObstacle(Coordinates coordinates){
         int[] gridIndexes = mapCoordinates(coordinates);
-        System.out.println("grid indexes = " + gridIndexes[0] +", " + gridIndexes[1]);
-        return grid[gridIndexes[0]][gridIndexes[1]].equals(Terrain.OBSTACLE);
+        System.out.println("grid indexes = " + gridIndexes[COLUMN_INDEX] +", " + gridIndexes[ROW_INDEX]);
+        return grid[gridIndexes[COLUMN_INDEX]][gridIndexes[1]].equals(Terrain.OBSTACLE);
     }
 
 
